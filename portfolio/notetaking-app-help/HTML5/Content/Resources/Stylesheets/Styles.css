@@ -1,0 +1,230 @@
+/*<meta />*/
+
+@import url('http://fonts.googleapis.com/css?family=Google+Sans|Roboto');
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body {
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c4043;
+}
+
+#wrapper {
+  max-width: 760px; 
+}
+
+h1, h2, h3 {
+  margin-top: 1.8em;
+  margin-bottom: 0.75em;	
+  font-family: "Google Sans", Roboto, sans-serif;
+  font-weight: 400;
+  color: #202124;
+}
+
+
+h1, h2, h3 {
+  font-family: "Google Sans", Roboto, sans-serif;
+  font-weight: 400;
+  color: #202124;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h2.related {
+  /* Heading for list of related links */
+  font-family: "Google Sans", Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #202124;
+}
+
+p
+{	
+	margin-bottom: 0.75em;
+}
+
+p.footer {
+  max-width: 760px;	
+  text-align: center;
+  margin-top: 4em;	
+  font-size: 0.8em;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol li ol {
+  list-style: upper-alpha;
+}
+
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
+  
+li.or {
+  /* List style for indicating conditional steps. */
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img
+{
+	border: 1px solid silver;
+  border-radius: 3px;
+  vertical-align: text-bottom; 
+}
+img.borderless {
+	border: none;
+  vertical-align: initial;
+}
+
+
+a.Popup
+{
+	
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+	
+p.caption
+{
+	font-size: 0.8em;
+}
+
+div.disclaimer {
+  /* Disclaimer box styling. */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f0f0f0;
+  border: solid 1px #d9d9d9;
+  overflow: hidden;
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+
+  div.disclaimer ul li {
+    margin: 0;
+  }
+
+p.disclaimer {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+  p.disclaimer::before {
+    /* Disclaimer box title. */
+    content: "Disclaimer: ";
+    font-weight: bold;
+  }
+
+div.note {
+  /* Note box styling. */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f0f0f0;
+  border: solid 1px #d9d9d9;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 2em;
+  padding-top: 0.8em;
+  padding-bottom: 1.1em;
+}
+
+p.note::before {
+  /* Note box title. */
+  content: "Note: ";
+  font-weight: bold;
+}
+
+div.tip {
+  /* Tip box styling. */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f0f0f0;
+  border: solid 1px #d9d9d9;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 2em;
+  padding-top: 0.8em;
+  padding-bottom: 1.1em;
+}
+
+p.tip::before {
+  /* Tip box title. */
+  content: "Tip: ";
+  font-weight: bold;
+}
+
+div.caution {
+  /* Caution box styling. */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f0f0f0;
+  border: solid 1px #d9d9d9;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 2em;
+  padding-top: 0.8em;
+  padding-bottom: 1.1em;
+}
+
+p.caution::before {
+  /* Caution box title. */
+  content: "Caution: ";
+  font-weight: bold;
+}
+
+kbd, kbd samp {
+  font-family: inherit;
+  font-weight: bold;
+}
