@@ -2635,6 +2635,7 @@ input, select, textarea {
 		.screenshot img {
 			border-radius: 4px;
 			display: block;
+			max-width: 100%;
 		}
 
 		.screenshot.left {
@@ -3911,6 +3912,14 @@ input, select, textarea {
 
 			blockquote.portfolio-sample kbd samp {
 				font-weight: inherit;
+			}
+
+			blockquote.portfolio-sample img.interface-element {
+				height: 20px;
+				width: 20px;
+				border: 1px solid #FFFFFF;
+  				border-radius: 3px;
+  				vertical-align: text-bottom; 
 			}
 
 		/* Portfolio Sample Table of Contents */
