@@ -100,6 +100,7 @@ img
   border-radius: 3px;
   vertical-align: text-bottom; 
 }
+
 img.borderless {
 	border: none;
   vertical-align: initial;
