@@ -94,14 +94,14 @@
 									<section id="content">
 										<blockquote class="portfolio-sample">
 											<header class="major">
-												<h2>Requesting Data with Actuate Query</h2>
+												<h2>Accessing Data with Actuate Query</h2>
 											</header>
-											<p>You can request data from your database with Actuate Query by querying an appropriate information object.</p>
+											<p>You can access data from your database with Actuate Query by querying a relevant information object.</p>
 											<h3>Choose an Information Object</h3>
 											<p>Begin by choosing an information object that contains the data you need:</p>
 											<ol>
 												<li>Log into the Actuate Query dashboard with your web browser (see Figure 1).</li>
-												<li>Click the name of the information object that you want to convert into a report.</li>
+												<li>Click the name of the information object that you want to query.</li>
 											</ol>
 											<div class="col-12">
 												<figure>
@@ -139,8 +139,8 @@
 											<h3>Choose the Sort Order of Data</h3>
 											<p>After selecting data fields, you will arrive at the <kbd><samp>Sorting</samp></kbd> tab (see Figure 3). Here you can specify the sort order of the data:</p>
 											<ol>
-												<li>With the left drop-down menu, choose which field to sort the data by.</li>
-												<li>With the right drop-down menu, choose the order to sort data by (such as by <i>ascending</i> or <i>descending</i> order).</li>
+												<li>From the first dropdown list under <kbd><samp>Specify the sort order</samp></kbd>, choose a field for sorting data.</li>
+												<li>From the second dropdown list under <kbd><samp>Specify the sort order</samp></kbd>, choose an order for sorting data (such as by <i>ascending</i> or <i>descending</i> order).</li>
 												<li>Confirm the sort order by clicking <kbd><samp>Next</samp></kbd> near the bottom of the tab.</li></ol>
 											</ol>
 											<div class="col-12">
@@ -149,7 +149,62 @@
 													<figcaption><strong>Figure 3:</strong> The <kbd><samp>Sorting</samp></kbd> tab.</figcaption>
 												</figure>
 											</div>
-											<h3>Choose Filters to Narrow Report Results</h3>
+											<h3>Choose Filters to Narrow Query Results</h3>
+											<p>After specifying the sort order, you will arrive at the <kbd><samp>Filters</samp></kbd> tab (see Figure 4). Here you can narrow the query results.</p>
+											<div class="col-12">
+												<figure>
+													<span class="screenshot"><img src="../images/database-query-instructions-filters-tab.png" alt="The Filters tab." /></span>
+													<figcaption><strong>Figure 4:</strong> The <kbd><samp>Filters</samp></kbd> tab.</figcaption>
+												</figure>
+											</div>
+											<h4>Filter Data by Location</h4>
+											<p>You can filter data by location:</p>
+											<ol>
+												<li>From the dropdown list under <kbd><samp>Predefined Filters (Parameters)</samp></kbd>, choose a location by abbreviated state name (such as <i>NH</i>, <i>NY</i>, or <i>WA</i>).</li>
+											</ol>
+											<h4>Filter Data by Custom Filters</h4>
+											<p>You can filter data by custom filters:</p>
+											<ol>
+												<li>From the three drop-down menus under <kbd><samp>Custom Filters</samp></kbd>, choose custom criteria to filter data by.</li>
+											</ol>
+											<h4>Apply Filters</h4>
+											<p>You can apply filters to the data:</p>
+											<ol>
+												<li>Click on the <kbd><samp>Next</samp></kbd> button at the bottom of the tab.</li>
+											</ol>
+											<h3>Run the Query</h3>
+											<p>After choosing filters, you will arrive at the <kbd><samp>Finish</samp></kbd> tab (see Figure 5).</p>
+											<dl class="note-box">
+												<dt class="note">Note</dt>
+												<dd> If you need to return to a previous tab to change any settings, click on the <kbd><samp>Back</samp></kbd> button on the bottom of the tab before running the query.</dd>
+											</dl>
+											<p>You can run the query from the <kbd><samp>Finish</samp></kbd> tab:</p>
+											<ol>
+												<li>
+													Select an output type by clicking on that output’s radio button.
+													<dl class="note-box">
+														<dt class="note">Note</dt>
+														<dd>
+															You can specify the following:
+															<ul>
+																<li>the page header name in the <kbd><samp>Page Header</samp></kbd> field</li>
+																<li>the query name in the <kbd><samp>Query Name</samp></kbd> field</li>
+																<li>the location to save the query in the <kbd><samp>Location Field</samp></kbd> (click the <kbd><samp>Browse</samp></kbd> button to locate a network or local file folder).</li>
+															</ul>
+														</dd>
+													</dl>
+												</li>
+												<li>Click the <kbd><samp>Run</samp></kbd> button to query the database.</li>
+											</ol>
+											<p>The query will save to the location specified in the <kbd><samp>Location</samp></kbd> field.</p>
+											<div class="col-12">
+												<figure>
+													<span class="screenshot"><img src="../images/database-query-instructions-finish-tab.png" alt="The Finish tab." /></span>
+													<figcaption><strong>Figure 5:</strong> The <kbd><samp>Finish</samp></kbd> tab.</figcaption>
+												</figure>
+											</div>
+
+
 											
 											<footer>
 												<ul class="copyright-declaration">
