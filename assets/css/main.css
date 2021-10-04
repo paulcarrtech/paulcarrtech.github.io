@@ -3892,6 +3892,10 @@ input, select, textarea {
 				margin-bottom: 1em;			
 			}
 
+			blockquote.portfolio-sample ol.subprocedure {
+				list-style-type: upper-latin;
+			}
+
 			blockquote.portfolio-sample li.or {
 				margin-top: 1em;
 				margin-bottom: 1em;
