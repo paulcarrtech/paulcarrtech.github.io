@@ -4147,11 +4147,7 @@ input, select, textarea {
 
 	a.round-image {
 		border-radius: 100%;
-	}
-
-	span.show-when-small {
-			display: none;
-		}	 
+	} 
 
 /* XLarge */
 
@@ -4747,14 +4743,6 @@ input, select, textarea {
 			position: relative;
 			z-index: -1;
 			overflow: hidden;
-		}
-
-		span.show-when-small {
-			display: initial;
-		}
-
-		span.hide-when-small {
-			display: none;
 		}
 
 	}
