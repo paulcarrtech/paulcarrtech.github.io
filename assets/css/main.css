@@ -3760,9 +3760,9 @@ input, select, textarea {
     margin: 0 0 1em 0;
   }
 
-  /* Portfolio BCIT Transcript */
+  /* Portfolio BCIT Grades */
 
-    table.bcit-transcript {
+    table.bcit-grades {
 
     }
 
@@ -3779,27 +3779,27 @@ input, select, textarea {
         text-align: right;
       }
 
-      table.bcit-transcript td:last-of-type {
+      table.bcit-grades td:last-of-type {
         text-align: right;
       }
 
-      table.bcit-transcript tfoot {
+      table.bcit-grades tfoot {
         font-weight: 300;
       }
 
-      table.bcit-transcript tbody tr:last-of-type {
+      table.bcit-grades tbody tr:last-of-type {
         border-bottom: solid 1px rgba(255, 255, 255, 0.7);
       }
 
-      table.bcit-transcript a.note {
+      table.bcit-grades a.note {
         font-weight: 300;
       }
 
-      table.bcit-transcript a.note:link {
+      table.bcit-grades a.note:link {
         border-bottom-color: transparent;
       }
 
-      table.bcit-transcript a.note:visited {
+      table.bcit-grades a.note:visited {
         border-bottom-color: transparent;
       }
 
