@@ -3760,6 +3760,41 @@ input, select, textarea {
     margin: 0 0 1em 0;
   }
 
+  /* Portfolio Recent Experience */
+
+    table.recent-experience {
+
+    }
+
+      th.recent-experience-org {
+        width: 20%;
+      }
+
+      th.recent-experience-role {
+        width: 50%;
+      }
+
+      th.recent-experience-dates {
+        width: 15%;
+        text-align: right;
+      }
+
+      table.recent-experience td:last-of-type {
+        text-align: right;
+      }
+
+      table.recent-experience tbody tr:last-of-type {
+        border-bottom: solid 1px rgba(255, 255, 255, 0.7);
+      }
+
+      table.recent-experience td:nth-last-of-type(2) {
+        text-align: right;
+      }
+
+      table.recent-experience a {
+        color: inherit;
+      }
+
   /* Portfolio BCIT Grades */
 
     table.bcit-grades {
@@ -3792,15 +3827,7 @@ input, select, textarea {
       }
 
       table.bcit-grades a.note {
-        font-weight: 300;
-      }
-
-      table.bcit-grades a.note:link {
-        border-bottom-color: transparent;
-      }
-
-      table.bcit-grades a.note:visited {
-        border-bottom-color: transparent;
+        color: inherit;
       }
 
     ul.bcit-endnotes {
