@@ -1,0 +1,3 @@
+# Include LMLs in repo language stats
+*.md linguist-detectable
+*.adoc linguist-detectable
