@@ -1,3 +1,8 @@
 # Include LMLs in repo language stats
 *.md linguist-detectable
 *.adoc linguist-detectable
+# Exclude Vendor code from repo language stats
+assets/css/fontawesome-all.min.css linguist-vendored
+assets/css/noscript.css linguist-vendored
+assets/js/** linguist-vendored
+assets/sass/** linguist-vendored
