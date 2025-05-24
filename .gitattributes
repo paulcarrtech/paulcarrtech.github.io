@@ -6,3 +6,5 @@ assets/css/fontawesome-all.min.css linguist-vendored
 assets/css/noscript.css linguist-vendored
 assets/js/** linguist-vendored
 assets/sass/** linguist-vendored
+# Include README.md in repo language stats
+README.md -linguist-documentation
