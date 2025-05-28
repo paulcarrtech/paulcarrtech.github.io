@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Focus and Exposure Troubleshooting :: Apera Vue Docs Site Mockup</title>
+    <link rel="canonical" href="https://paulcarr.tech/antora-mockup/apera-mockup/9.x/focus-and-exposure-troubleshooting.html">
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar" style="background: #0A233F;">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <a href="https://paulcarr.tech/antora-mockup"><img src="_images/apera-logo-white.png" alt="Apera logo in white" width="200" height="43"></a>
+      </div>
+      <a class="navbar-item" href="https://paulcarr.tech/antora-mockup">Apera Vue Docs Site Mockup</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+          <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://support.apera.ai/knowledge/kb-tickets/new?hsLang=en" style="background: #FD495C; border-color: #FD495C; color: white;">Get Help</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header><div class="body">
+<div class="nav-container" data-component="apera-mockup" data-version="9.x">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">Apera Vue</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Getting Started</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="supplied-hardware.html">Supplied Hardware</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="apera-computer-setup.html">Apera Vue Computer Setup</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="device-activation.html">Device Activation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="robot-server.html">Choose the Correct Robot Server in Apera Vue</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="camera-calibration-troubleshooting.html">Camera Calibration Troubleshooting</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="robot-calibration-troubleshooting.html">Robot Calibration Troubleshooting</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="focus-and-exposure-troubleshooting.html">Focus and Exposure Troubleshooting</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="calibration-troubleshooting.html">Robot Calibration Failing Due to Camera Calibration</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Support</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="https://support.apera.ai/knowledge/kb-tickets/new?hsLang=en">Get Help</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Apera Vue</span>
+    <span class="version">9.x</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">Apera Vue</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">9.x</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Apera Vue</a></li>
+    <li>Troubleshooting</li>
+    <li><a href="focus-and-exposure-troubleshooting.html">Focus and Exposure Troubleshooting</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="https://github.com/paulcarrtech/apera-mockup/edit/main/content/modules/ROOT/pages/focus-and-exposure-troubleshooting.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Focus and Exposure Troubleshooting</h1>
+<div class="sect1">
+<h2 id="_before_you_begin"><a class="anchor" href="#_before_you_begin"></a>Before You Begin</h2>
+<div class="sectionbody">
+<div class="ulist checklist">
+<div class="title">Assumptions</div>
+<ul class="checklist">
+<li>
+<p><i class="fa fa-check-square-o"></i> Apera Vue Computer is activated and running Apera Vue software (version 8.0.0 or higher)</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> VuePort or custom camera pair has already been calibrated</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Before adjusting the lens to improve robot calibration results, double-check whether both cameras have optimal focus and aperture settings.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+F# on the lens is usually set at F# 4.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_check_for_an_over_exposed_image"><a class="anchor" href="#_check_for_an_over_exposed_image"></a>Check for an Over-Exposed Image</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you see an over-exposed image with your lens at F# 4, the exposure time is likely high. This causes white regions of the camera calibration board to saturate.</p>
+</div>
+<div class="imageblock text-left">
+<div class="content">
+<img src="_images/over-exposed-image.jpg" alt="An overexposed image with saturated white regions" width="1005" height="492">
+</div>
+<div class="title">Example of an over-exposed image.</div>
+</div>
+<div class="paragraph">
+<p>You can change exposure time in Apera Vue:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <strong>Cameras &gt; Capture Settings</strong></p>
+</li>
+<li>
+<p>Select <strong>Edit &gt; Edit Exposure Time</strong> on the capture you are currently using.</p>
+</li>
+<li>
+<p>If your image was over exposed, set the exposure time to optimal values.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+For indoor environments, we recommend an exposure time of 33 ms to 66 ms.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock text-left">
+<div class="content">
+<img src="_images/optimal-exposure.jpg" alt="An image with optimal exposure" width="1005" height="492">
+</div>
+<div class="title">The same image as above with optiomal exposure. (66 ms).</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lens_focus_and_f_settings"><a class="anchor" href="#_lens_focus_and_f_settings"></a>Lens Focus and F# Settings</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The recommended aperture setting for each lens is F# 4.</p>
+</div>
+<div class="paragraph">
+<p>If the lens was out of focus and/or on a lower F# when you previously performed robot calibration, please refocus the lens and set F# 4.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+With the camera calibration board in frame, the focus on both cameras must look similar to the image below.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock text-left">
+<div class="content">
+<img src="_images/correct-focus.jpg" alt="Example of correct focus on the calibration board" width="697" height="495">
+</div>
+<div class="title">Correct camera focus on the calibration board at F# 4.</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_increase_the_lens_f_to_f_5_6"><a class="anchor" href="#_increase_the_lens_f_to_f_5_6"></a>Increase the Lens F# to F# 5.6</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Loosen the lock screw on the aperture ring without altering the focus ring of both cameras.</p>
+</li>
+<li>
+<p>Change the F# from 4 to 5.6 on both lenses.</p>
+</li>
+<li>
+<p>Recalibrate the cameras.</p>
+</li>
+<li>
+<p>Recalibrate the robot.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If robot calibration is still failing, <a href="https://support.apera.ai/knowledge/kb-tickets/new?hsLang=en">contact Apera Support</a>.</p>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>Copyright &copy; 2025 Apera AI Inc.</p>
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer><script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+<script src="../../_/js/vendor/lunr.js"></script>
+<script src="../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../.." data-snippet-length="100" data-stylesheet="../../_/css/search.css"></script>
+<script async src="../../search-index.js"></script>
+  </body>
+</html>
