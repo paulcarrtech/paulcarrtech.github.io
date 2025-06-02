@@ -1,14 +1,16 @@
 # Include LMLs in repo language stats
 *.md linguist-detectable
 *.adoc linguist-detectable
-# Exclude Vendor code from repo language stats
+# Exclude vendored code from repo language stats
 assets/css/fontawesome-all.min.css linguist-vendored
 assets/css/noscript.css linguist-vendored
 assets/js/** linguist-vendored
 assets/sass/** linguist-vendored
-portfolio/notetaking-app-help/HTML5/Data/** linguist-vendored
-portfolio/notekaing-app-help/HTML5/Resources/** linguist-vendored
-portfolio/notetaking-app-help/HTML5/*.js linguist-vendored
-portfolio/notetaking-app-help/HTML5/Default.* linguist-vendored
+# Exclude generated code from repo language stats
+portfolio/notetaking-app-help/HTML5/Data/** linguist-generated
+portfolio/notekaing-app-help/HTML5/Resources/** linguist-generated
+portfolio/notetaking-app-help/HTML5/*.js linguist-generated
+portfolio/notetaking-app-help/HTML5/Default.* linguist-generated
+antora-mockup/** linguist-genarated
 # Include README.md in repo language stats
 README.md -linguist-documentation
